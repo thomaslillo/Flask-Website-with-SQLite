@@ -1,0 +1,51 @@
+{% extends "basetemplate.html" %}
+{% block title %}<h1>Sign up for an Account</h1>
+<br>
+
+<form method="POST">
+    <h2 align="center">Fill in the Info Below</h2>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input 
+            type="email" 
+            class="form-control" 
+            id="email" 
+            name="email" 
+            placeholder="Enter Email Please"
+        />
+    </div>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input 
+            type="text" 
+            class="form-control" 
+            id="firstName" 
+            name="firstName" 
+            placeholder="Enter First Name Please"
+        />
+    </div>
+    <div class="form-group">
+        <label for="password1">Password</label>
+        <input 
+            type="password" 
+            class="form-control" 
+            id="password1" 
+            name="password1" 
+            placeholder="Enter Your Password"
+        />
+    </div>
+    <div class="form-group">
+        <label for="password2">Re-Enter Password</label>
+        <input 
+            type="password" 
+            class="form-control" 
+            id="password2" 
+            name="password2" 
+            placeholder="Re-EnterPassword"
+        />
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit Info</button>
+</form>
+
+{% endblock %}
