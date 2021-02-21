@@ -1,3 +1,6 @@
+
+## MAIN FILE TO RUN WEBSITE
+
 # pulling in the function from __init__
 from Website import create_app
 
